@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Document</title>
+</head>
+
+<body style="background-color: blueviolet; overflow-x: hidden;">
+    <div class="start"><button class="btn-start">Start Quiz</button></div>
+    <div class="info-box">
+        <div class="info_tittle">
+            <span>Some Rule of this Quiz</span>
+        </div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer.you can't reselect.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answer.</div>
+        </div>
+        <div class="info-btn">
+            <div class="exit-btn"><button>Exit Quiz</button></div>
+            <div class="next-btn"><button>Continue</button></div>
+        </div>
+    </div>
+    <div class="quiz">
+        <header>
+            <div class="quiz-title">
+                <div class="text">Awesome Quiz Application</div>
+                <div class="time">
+                    <div class="time-left">
+                        Time Left
+                    </div>
+                    <div class="time-process">
+                        15
+                    </div>
+                </div>
+            </div>
+            <div class="time-line"></div>
+        </header>
+        <section>
+            <div class="questoin-answer">
+                <div class="question-list"></div>
+                <div class="answer-list"></div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="step"></div>
+                <div class="btn-next"><button class="next">Next Quiz</button></div>
+                <div class="btn-submit"><button class="submit">Submit</button></div>
+            </div>
+        </footer>
+    </div>
+    <div class="Result">
+        <h1 class="crown"><i class='bx bxs-crown'></i></h1>
+        <h2>You've completed the Quiz!</h2>
+        <h2>And Congratulation 🎉 You got <span class="points"></span> of 5.</h2>
+        <div class="btn-result">
+            <div class="btn-again"><button class="btn btn-info">Play Again</button></div>
+            <div class="btn-quit"><button class="btn btn-info">Quit Quiz</button></div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
